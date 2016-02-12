@@ -52,7 +52,7 @@ size=[1,1,1,1,8,1,1,1,19.5,2,8,25,50,65,10,6,4,10]
 vggroup="vgora"
 oracle= "/oracle/"+sid
 mount=["/oracle",oracle,oracle+"/mirrlogA",oracle+"/mirrlogB",oracle+"/112_64",oracle+"/origlogA",oracle+"/origlogB","/oracle/client",oracle+"/oraarch",oracle+"/sapreorg","/oracle/stage/112_64",oracle+"/sapdata1",oracle+"/sapdata2",oracle+"/sapdata3",oracle+"/sapdata4","/usr/sap/"+sid,"/sapmnt/"+sid,"/usr/sap/trans"]
-mkdir=["/oracle",oracle,"/oracle/client","/oracle/stage","/oracle/stage/112_64",oracle+"/mirrlogA",oracle+"/mirrlogB",oracle+"/112_64",oracle+"/origlogA",oracle+"/origlogB",oracle+"/oraarch",oracle+"/sapreorg",oracle+"/sapdata1",oracle+"/sapdata2",oracle+"/sapdata3",oracle+"/sapdata4","/usr/sap","/usr/"+sid,"/usr/sap/trans","/sapmnt","/sapmnt/"+sid,"/usr/sap/"+sid]  
+mkdir=["/oracle",oracle,"/oracle/client","/oracle/stage","/oracle/stage/112_64",oracle+"/mirrlogA",oracle+"/mirrlogB",oracle+"/112_64",oracle+"/origlogA",oracle+"/origlogB",oracle+"/oraarch",oracle+"/sapreorg",oracle+"/sapdata1",oracle+"/sapdata2",oracle+"/sapdata3",oracle+"/sapdata4","/usr/sap","/usr/sap/trans","/sapmnt","/sapmnt/"+sid,"/usr/sap/"+sid]  
 
 #for i in range (0,21):
  #   if not os.path.isdir(mkdir[i]):
