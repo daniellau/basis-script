@@ -34,7 +34,7 @@ def uuid():
 		edittext(text,value,line)
 		subprocess.call(("insserv uuidd"),shell=True)
 		subprocess.call(("/etc/init.d/uuidd start"),shell=True)
-
+#haven't used because we create users at install just here for refrence
 def users():
 	text = "/etc/ssh/sshd_config_test"
 	value = "\nAllowUsers"
