@@ -48,7 +48,7 @@ def maked (mkdir):
         print(mkdir[i]+" already exsists")
                 
 name = ["orabase","ora"+sid,"mirrlogA","mirrlogB","orahome","origlogA","origlogB","client","oraarch","sapreorg","stage","sapdata1","sapdata2","sapdata3","sapdata4","sap"+sid,"sapmnt","trans"]
-size=[1,1,1,1,8,1,1,1,19.5,2,8,25,50,65,10,6,4,10]
+size=[1,1,1,1,8,1,1,1,19.5,2,8,25,50,65,20,6,4,10]
 vggroup="vgora"
 oracle= "/oracle/"+sid
 mount=["/oracle",oracle,oracle+"/mirrlogA",oracle+"/mirrlogB",oracle+"/112_64",oracle+"/origlogA",oracle+"/origlogB","/oracle/client",oracle+"/oraarch",oracle+"/sapreorg","/oracle/stage/112_64",oracle+"/sapdata1",oracle+"/sapdata2",oracle+"/sapdata3",oracle+"/sapdata4","/usr/sap/"+sid,"/sapmnt/"+sid,"/usr/sap/trans"]
